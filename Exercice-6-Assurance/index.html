@@ -1,0 +1,49 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Assurances</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="row-sm-3 md-12 mx-auto mt-4 text-center">
+                <div class= mb-3>
+                    <label for="ageConducteur" class="form-label">Age du conducteur :</label>
+                    <input type="number" class="form-control" id="ageConducteur" aria-describedby="ageConducteur">
+                </div>
+            </div>
+            <div class="row-sm-3 mx-auto mt-4 text-center">
+                <div class= mb-3>
+                    <label for="permis" class="form-label">Année permis :</label>
+                    <input type="number" class="form-control" id="permis" aria-describedby="permis">
+                </div>
+            </div>
+            <div class="row-sm-3 mx-auto mt-4 text-center">
+                <div class= mb-3>
+                    <label for="fidelite" class="form-label">Fidélité :</label>
+                    <input type="number" class="form-control" id="fidelite" aria-describedby="fidelite">
+                </div>
+            </div>
+            <div class="row-sm-3 mx-auto mt-4 text-center">
+                <div class="" mb-3>
+                    <label for="accident" class="form-label">Accident :</label>
+                    <input type="number" class="form-control" id="accident" aria-describedby="accident">
+                </div>
+            </div>
+  
+        <button type="submit" id="button" class="btn btn-primary mt-5">valider</button>
+        
+        <div class="row">
+                <div class="col-sm-3 mx-auto mt-5 text-center">
+                    <div id="message"></div>
+                </div>
+         </div>  
+        </div>
+    
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+         <script src = "./script.js"></script>
+     </body>
+     </html>

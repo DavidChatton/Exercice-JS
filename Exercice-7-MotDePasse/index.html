@@ -1,0 +1,30 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vérification Mot de passe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">   
+        <form action="">
+            <label>Utilisateur</label>
+            <input type="text" required>
+            <label>Mot de passe</label>
+            <input type="password" id="psw" required>
+            <input type="submit" value="Envoyé">
+        </form>
+    </div>
+    <div id="message">
+            <h3>Le mot de passe doit contenir les élèments suivants</h3>
+            <p id="letter"class="invalid">Une lettre minuscule</p>
+            <p id="capital"class="invalid">Une lettre majuscule</p>
+            <p id="number"class="invalid">Un Chiffre</p>
+            <p id="nmbcharacter"class="invalid"> 8 caractères minimun</p>   
+    </div>        
+         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+         <script src = "./script.js"></script>
+     </body>
+     </html>
